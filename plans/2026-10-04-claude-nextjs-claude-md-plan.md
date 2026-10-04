@@ -116,4 +116,5 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## 남은 작업
 
-- 커밋·푸시: 아직 하지 않았다. 파일 목록과 변경 요약을 확인받은 뒤에 한다.
+- ~~커밋·푸시~~ → 브랜치 `docs/claude-md-init`에 커밋(56c640d)한 뒤 `main`에 합치고 푸시 완료 (2026-10-04)
+- 없음
