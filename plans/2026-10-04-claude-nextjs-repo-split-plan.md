@@ -45,3 +45,18 @@
 - `gh repo view moonjeje21-maker/claude-nextjs` → 공개 저장소, 파일 보임
 - `git -C workspace1 status` → claude-nextjs가 목록에 안 나옴, `ls claude-nextjs/src` → 파일 그대로 있음
 - `npm run dev`가 계속 정상 동작 (http://localhost:3000 응답 200)
+
+---
+
+## 완료 상태 (2026-10-04)
+
+**1~4단계 모두 완료.**
+
+- claude-nextjs: 초기 커밋 `cb67c49` → https://github.com/moonjeje21-maker/claude-nextjs (공개) 푸시
+- workspace1: `.gitignore`에 `claude-nextjs/` 추가, 추적 해제 커밋 `bd1a795` 푸시 (로컬 파일은 그대로)
+- 홈 `~/CLAUDE.md`: 별도 저장소 목록에 claude-nextjs 추가, home-config 커밋 `e99e9a9` 푸시
+- 검증: GitHub 저장소 PUBLIC 확인, workspace1 status에 claude-nextjs 안 나옴, 개발 서버 응답 200
+
+## 남은 작업
+
+- 없음 (이 완료 기록 자체의 커밋만 남음)
