@@ -1,5 +1,14 @@
 import type { LucideIcon } from "lucide-react"
-import { Atom, Code, Component, Layers, Shapes, Wind } from "lucide-react"
+import {
+  Atom,
+  BellRing,
+  Code,
+  Component,
+  Layers,
+  Shapes,
+  SunMoon,
+  Wind,
+} from "lucide-react"
 
 // 스타터 킷에 들어 있는 기술 하나의 정보
 export type StackItem = {
@@ -53,5 +62,19 @@ export const stackItems: StackItem[] = [
     description: "React 컴포넌트로 쓰는 아이콘 모음",
     href: "https://lucide.dev/guide/packages/lucide-react",
     icon: Shapes,
+  },
+  {
+    name: "next-themes",
+    version: "0.4",
+    description: "라이트/다크 테마를 바꾸고 선택을 기억해 주는 라이브러리",
+    href: "https://github.com/pacocoursey/next-themes",
+    icon: SunMoon,
+  },
+  {
+    name: "sonner",
+    version: "2.0",
+    description: "화면 구석에 잠깐 뜨는 알림(토스트) 라이브러리",
+    href: "https://sonner.emilkowal.ski",
+    icon: BellRing,
   },
 ]
