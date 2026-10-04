@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# playwright mcp (브라우저 자동화 도구가 남기는 화면·콘솔 기록)
+.playwright-mcp/
