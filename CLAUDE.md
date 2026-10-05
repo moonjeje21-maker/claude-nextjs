@@ -10,6 +10,7 @@ Next.js 16 (App Router) · React 19 · TypeScript · Tailwind CSS 4 · shadcn/ui
 
 - `main`에 바로 커밋하지 않는다. 브랜치(`feat/…`, `fix/…`, `chore/…`) → PR → 병합 커밋(`gh pr merge --merge`) 순서로 올린다. 커밋 메시지와 PR은 영어로 쓴다. 올려 달라는 요청을 받으면 `.claude/skills/ship/SKILL.md`의 순서를 따른다 (사용자는 `/ship`으로 부른다)
 - 라이브러리 설치, 버전 올리기, `npm audit`, 설정 파일 수정 전이나 build가 캐시 오류를 낼 때는 `.claude/rules/dependencies.md`를 읽는다 (`package.json` 같은 설정 파일을 열면 자동으로 읽힌다)
+- 처음 쓰는 API를 쓰거나 라이브러리를 설치·업그레이드할 때는 `.claude/rules/library-docs.md`의 순서로 문서를 먼저 확인한다 (`src/` 아래 코드나 `package.json`을 열면 자동으로 읽힌다)
 
 ## 명령
 
