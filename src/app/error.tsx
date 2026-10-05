@@ -15,7 +15,7 @@ import {
 
 type ErrorPageProps = {
   error: Error & { digest?: string }
-  // Next.js 16.3: 다시 불러와서 다시 그리는 함수 (예전 이름은 reset)
+  // Next.js 16.3: 다시 불러와서 다시 그리는 함수 (reset은 다시 불러오지 않고 다시 그리기만 한다)
   retry: () => void
 }
 
