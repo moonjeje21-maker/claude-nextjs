@@ -146,6 +146,6 @@ exit 2
   - `main`에서 `git checkout …` → 통과
   - `chore/…` 브랜치에서 `git commit --dry-run` → 통과
 
-남은 작업:
+- [x] 5단계: PR #10으로 병합, 작업 브랜치 삭제. 병합 후 `main`에서 `git commit --dry-run`이 막히는 것을 다시 확인
 
-- [ ] 5단계: 커밋 → PR → 병합 (사용자 확인 후)
+남은 작업: 없음
