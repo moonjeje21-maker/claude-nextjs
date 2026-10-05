@@ -8,7 +8,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Next.js 16 (App Router) · React 19 · TypeScript · Tailwind CSS 4 · shadcn/ui (radix-nova) · npm. 코드는 `src/` 아래, import 별칭은 `@/*`. 정확한 버전, 화면 목록, 폴더 그림, 설치된 shadcn 컴포넌트는 `README.md`에 있다.
 
-- `main`에 바로 커밋하지 않는다. 브랜치(`feat/…`, `fix/…`, `chore/…`) → PR → 병합 커밋(`gh pr merge --merge`) 순서로 올린다. 커밋 메시지와 PR은 영어로 쓴다
+- `main`에 바로 커밋하지 않는다. 브랜치(`feat/…`, `fix/…`, `chore/…`) → PR → 병합 커밋(`gh pr merge --merge`) 순서로 올린다. 커밋 메시지와 PR은 영어로 쓴다. 올려 달라는 요청을 받으면 `.claude/skills/ship/SKILL.md`의 순서를 따른다 (사용자는 `/ship`으로 부른다)
 - 라이브러리 설치, 버전 올리기, `npm audit`, 설정 파일 수정 전이나 build가 캐시 오류를 낼 때는 `.claude/rules/dependencies.md`를 읽는다 (`package.json` 같은 설정 파일을 열면 자동으로 읽힌다)
 
 ## 명령
